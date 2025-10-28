@@ -1,0 +1,126 @@
+# Projet : Générateur de Datasets 
+## Objectif du projet
+
+L’objectif de ce projet est de concevoir un **système logiciel modulaire et extensible** permettant de **générer des datasets sur mesure** à partir d’une **définition formelle d’un projet de données**.  
+Le système devra être pensé pour respecter les **principes SOLID** et présenter une **modélisation UML claire**, notamment un **diagramme de classes complet** et cohérent.
+
+Ce projet a pour vocation de vous exercer à :
+
+-   Appliquer les **principes de conception orientée objet (SOLID)**.
+    
+-   Réaliser un **diagramme de classes** de qualité.
+    
+-   Concevoir une **architecture évolutive et maintenable**
+
+## Contexte
+
+Dans le domaine du **Big Data** et de l’**analyse de données**, il est souvent difficile de trouver des datasets adaptés pour les tests, les démonstrations ou les projets d’apprentissage automatique.  
+L’idée est de proposer une **solution logicielle capable de générer automatiquement des datasets réalistes** à partir de définitions paramétrables.
+
+Un utilisateur pourra :
+
+1.  **Créer un projet de dataset** (ex : "Population française", "Ventes e-commerce", "Capteurs IoT").
+    
+2.  **Définir les entités** du dataset (ex : Utilisateur, Produit, Capteur).
+    
+3.  Pour chaque entité, **définir les attributs** :
+    
+    -   nom
+        
+    -   type de donnée (String, Integer, Float, Boolean, Date, Enum, etc.)
+        
+    -   contraintes (bornes min/max, moyenne, médiane, valeurs possibles, distribution des valeurs).
+        
+4.  **Créer des sous-entités** (ex : une entité Adresse rattachée à Utilisateur).
+    
+5.  **Configurer la taille du dataset**.
+    
+6.  **Exporter le dataset** dans différents formats (CSV, JSON, XML, SQL…).
+    
+
+Le système devra permettre d’étendre facilement les fonctionnalités (principe **Open/Closed**) : nouveaux types de données, nouveaux formats d’export, nouvelles sources de données.
+
+----------
+
+## Fonctionnalités principales attendues
+
+### 1. Gestion des projets de dataset
+
+-   Création, édition et suppression d’un projet.
+    
+-   Chaque projet contient un ensemble d’entités.
+    
+
+### 2. Gestion des entités et attributs
+
+-   Création d’entités avec leurs attributs.
+    
+-   Gestion des sous-entités (composition ou agrégation).
+    
+-   Définition des types de données et contraintes (min, max, moyenne, médiane, distribution).
+    
+
+### 3. Génération de données
+
+Votre projet devra être capable de générer des données sur modèles :
+
+-   Génération aléatoire respectant les contraintes définies.
+        
+-   Génération à partir de **sources externes** :
+    
+    -   API de prénoms/noms réalistes (ex : français, internationaux).
+        
+    -   Listes de villes, professions, produits, etc.
+        
+
+### 4. Formats d’export
+
+-   CSV
+    
+-   JSON
+    
+-   XML
+    
+-   SQL
+    
+
+Les formats doivent pouvoir être ajoutés facilement sans modification du cœur de l’application.
+
+## Contraintes techniques et pédagogiques
+
+-   Le diagramme doit être **cohérent, complet et lisible**.
+    
+-   L’architecture doit pouvoir **évoluer sans modification majeure du code existant** (principe Open/Closed).
+    
+-   Les classes doivent être **faiblement couplées et fortement cohésives**.
+    
+-   L’héritage doit être utilisé avec discernement (Liskov, Interface Segregation).
+    
+-   La dépendance envers les implémentations concrètes doit être limitée (Dependency Inversion).
+
+
+## Travail attendu
+
+### Livrables
+
+1.  **Diagramme de classes UML complet** ou un projet Java avec un squelette (définition des classes, attributs et méthodes sans implémentation) :
+    
+    -   Respect des principes SOLID.
+        
+    -   Identification claire des interfaces, classes abstraites, dépendances, agrégations/compositions.
+        
+2.  **README** :
+    
+    -   Description de l’architecture.
+        
+    -   Justification des choix de conception (ex : utilisation d’un pattern spécifique ou parti pris sur une décision, etc.).
+        
+    -   Explication des principes SOLID respectés.
+    
+3. **Livraison attendue** :
+
+	-   Diagramme UML  ou projet +  Readme à remettre sur l'assignment qui vous sera fourni avant **le 29/10/25 à 23h59**.
+    
+	-   Travail individuel ou en binôme.
+
+
