@@ -1,0 +1,14 @@
+{
+  "Utilisateur": [
+    {"Nom": "Bob", "Age": "24", "Ville": "Lyon"},
+    {"Nom": "David", "Age": "60", "Ville": "Bordeaux"},
+    {"Nom": "Claire", "Age": "51", "Ville": "Marseille"},
+    {"Nom": "Franck", "Age": "32", "Ville": "Bordeaux"},
+    {"Nom": "Bob", "Age": "57", "Ville": "Bordeaux"},
+    {"Nom": "Emma", "Age": "19", "Ville": "Paris"},
+    {"Nom": "Bob", "Age": "29", "Ville": "Paris"},
+    {"Nom": "Franck", "Age": "26", "Ville": "Paris"},
+    {"Nom": "David", "Age": "62", "Ville": "Bordeaux"},
+    {"Nom": "Emma", "Age": "23", "Ville": "Bordeaux"}
+  ]
+}

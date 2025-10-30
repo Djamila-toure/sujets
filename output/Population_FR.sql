@@ -1,0 +1,10 @@
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Bob', '24', 'Lyon');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('David', '60', 'Bordeaux');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Claire', '51', 'Marseille');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Franck', '32', 'Bordeaux');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Bob', '57', 'Bordeaux');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Emma', '19', 'Paris');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Bob', '29', 'Paris');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Franck', '26', 'Paris');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('David', '62', 'Bordeaux');
+INSERT INTO Utilisateur (Nom, Age, Ville) VALUES ('Emma', '23', 'Bordeaux');

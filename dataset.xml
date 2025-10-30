@@ -1,0 +1,32 @@
+<dataset>
+  <record>
+    <Adresse>{CodePostal=40029, Ville=Text364}</Adresse>
+    <Nom>Text73</Nom>
+    <Actif>true</Actif>
+    <Age>92</Age>
+  </record>
+  <record>
+    <Adresse>{CodePostal=43697, Ville=Text210}</Adresse>
+    <Nom>Text740</Nom>
+    <Actif>false</Actif>
+    <Age>57</Age>
+  </record>
+  <record>
+    <Adresse>{CodePostal=36256, Ville=Text541}</Adresse>
+    <Nom>Text166</Nom>
+    <Actif>true</Actif>
+    <Age>52</Age>
+  </record>
+  <record>
+    <Adresse>{CodePostal=48216, Ville=Text130}</Adresse>
+    <Nom>Text326</Nom>
+    <Actif>false</Actif>
+    <Age>2</Age>
+  </record>
+  <record>
+    <Adresse>{CodePostal=50000, Ville=Text73}</Adresse>
+    <Nom>Text154</Nom>
+    <Actif>true</Actif>
+    <Age>28</Age>
+  </record>
+</dataset>

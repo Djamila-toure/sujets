@@ -1,0 +1,32 @@
+[
+  {
+    "Adresse": "{CodePostal=40029, Ville=Text364}",
+    "Nom": "Text73",
+    "Actif": "true",
+    "Age": "92"
+  },
+  {
+    "Adresse": "{CodePostal=43697, Ville=Text210}",
+    "Nom": "Text740",
+    "Actif": "false",
+    "Age": "57"
+  },
+  {
+    "Adresse": "{CodePostal=36256, Ville=Text541}",
+    "Nom": "Text166",
+    "Actif": "true",
+    "Age": "52"
+  },
+  {
+    "Adresse": "{CodePostal=48216, Ville=Text130}",
+    "Nom": "Text326",
+    "Actif": "false",
+    "Age": "2"
+  },
+  {
+    "Adresse": "{CodePostal=50000, Ville=Text73}",
+    "Nom": "Text154",
+    "Actif": "true",
+    "Age": "28"
+  }
+]
